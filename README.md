@@ -59,3 +59,20 @@ x = 2
 ## Estrutura dos processos do Compilador
 
 <img src="https://github.com/GabrielLuizSF/Compiladores/blob/main/example/png/Compilador.drawio.png"></img>
+
+- Analisador Léxico
+
+```go
+
+x := x + y * 2
+
+```
+<div align="center">
+ ⬇️ 
+</div>
+
+```assembly
+
+< x,id, > < :=,:= > < x,id, > < +,op > < y,id₂ > < *,op > < 2,num >
+
+```
