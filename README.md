@@ -97,3 +97,26 @@ x := x + y * 2
 comando_de_atribuição => id := id op id₂ op num
 
 ```
+
+- Analisador Semântico
+
+
+```assembly
+
+comando_de_atribuição => id := id op id₂ op num
+
+```
+
+
+ ⬇️ 
+
+
+
+```assembly
+
+(id)int := (id op id₂ op num)int
+
+busca_tabela_de_símbolos(id)=TRUE
+busca_tabela_de_símbolos(id₂)=TRUE
+
+```
