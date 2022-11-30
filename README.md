@@ -60,6 +60,8 @@ x = 2
 
 <img src="https://github.com/GabrielLuizSF/Compiladores/blob/main/example/png/Compilador.drawio.png"></img>
 
+-----
+
 - Analisador Léxico
 
 ```go
