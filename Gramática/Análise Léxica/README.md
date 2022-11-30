@@ -74,4 +74,17 @@ num   => digito*(.digito+)?(E(+|-)?digito*)?
 - Número inteiro  sem sinal: dígito+
 - Número inteiro com sinal: (+ | -)dígito+
 
+### Execução do  Autômato
 
+- Se o autômato determinístico(i.e., não há transições 	λ e, para cada estado s e símbolo de entrada a, existe somente uma transição possível), o seguinte algoritmo pode ser aplicado:
+
+```haskell
+
+s := s0
+c := próximo_caractere()
+enquanto(c<>eof)faça
+    s := transição(s,c)
+    c := próximo_caractere()
+fim
+
+```
