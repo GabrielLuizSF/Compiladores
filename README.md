@@ -160,3 +160,24 @@ id := id +temp1
 
 ```
 
+- Gerador de Código
+
+
+```assembly
+
+temp1 := id₂ * 2
+id := id +temp1
+
+```
+
+⬇️ 
+
+```assembly
+
+MOV id₂ R1
+MULT 2  R1
+MOV id  R2
+ADD R1  R2
+MOV R2  id
+
+```
