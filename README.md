@@ -120,3 +120,22 @@ busca_tabela_de_símbolos(id)=TRUE
 busca_tabela_de_símbolos(id₂)=TRUE
 
 ```
+
+- Gerador de Código Intermediário
+
+
+```assembly
+
+id := id op id₂ op num
+
+```
+
+ ⬇️ 
+
+```assembly
+
+temp1 := id₂ * 2
+temp2 := id + temp1
+id := temp2
+
+```
