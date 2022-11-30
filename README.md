@@ -181,3 +181,27 @@ ADD R1  R2
 MOV R2  id
 
 ```
+
+## Interpretadores x Compiladores
+
+- São tradutores de linguagens
+
+### Interpretadores
+
+- Executa o código-fonte de imediato;
+- Menores que os compiladores
+- Mais adaptáveis e ambientes computacionais diversos 
+- Tempo de execução maior
+- Instruções de loop são analizadas N vezes!
+- Javascript, OCaml, Python, Perl
+
+### Compiladores
+
+- Gera um código-objeto que seja executado em término de tradução;
+- Compila-se uma única vez, executando-se quantas vezes se queira;
+- Tempo de execução menor
+- C, Golang ,Pascal
+
+### Linguagens Híbridas
+
+- Compila um código intermediário/virtual(bytecodes), que, por sua vez, é interpretado (virtual machine)
