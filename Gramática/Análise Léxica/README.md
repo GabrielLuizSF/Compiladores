@@ -57,6 +57,7 @@ num   => digito*(.digito+)?(E(+|-)?digito*)?
 
 #### Exemplo:
 
+<img src="https://github.com/GabrielLuizSF/Compiladores/blob/main/example/png/Analisador_L%C3%A9xico.drawio.png"></img>
 
 
 
