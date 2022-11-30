@@ -78,3 +78,22 @@ x := x + y * 2
 < x,id, > < :=,:= > < x,id, > < +,op > < y,id₂ > < *,op > < 2,num >
 
 ```
+
+- Análise Sintática
+
+```assembly
+
+< x,id, > < :=,:= > < x,id, > < +,op > < y,id₂ > < *,op > < 2,num >
+
+```
+
+<div align="center">
+ ⬇️ 
+</div>
+
+
+```assembly
+
+comando_de_atribuição => id := id op id₂ op num
+
+```
