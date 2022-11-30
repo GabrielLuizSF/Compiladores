@@ -51,5 +51,7 @@ x = 2
 - Linguagens funcionais (LISP) e lógicas (Prolog) requerem técnicas diferentes.
 
 1- Em geral são interpretadas
+
 2- Abstração ao máximo
+
 3- Sobrecarregar o interpretador de funções
