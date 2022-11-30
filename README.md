@@ -139,3 +139,24 @@ temp2 := id + temp1
 id := temp2
 
 ```
+
+- Otimizador de Código
+
+
+```assembly
+
+temp1 := id₂ * 2
+temp2 := id + temp1
+id := temp2
+
+```
+
+⬇️ 
+
+```assembly
+
+temp1 := id₂ * 2
+id := id +temp1
+
+```
+
