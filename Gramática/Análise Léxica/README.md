@@ -88,3 +88,6 @@ enquanto(c<>eof)faça
 fim
 
 ```
+
+- Se o autômato é não determinístico, pode-se transformá-lo em um autômato determinístico;
+- Para a aplicação em compiladores, em geral, é muito simples construir um autômato determinístico.
