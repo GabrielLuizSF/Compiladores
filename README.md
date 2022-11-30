@@ -205,3 +205,4 @@ MOV R2  id
 ### Linguagens Híbridas
 
 - Compila um código intermediário/virtual(bytecodes), que, por sua vez, é interpretado (virtual machine)
+- Java, C# , F#
