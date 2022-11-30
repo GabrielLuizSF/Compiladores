@@ -35,3 +35,13 @@ x = 2
 - Diversos experimentos e implementações realizados independentemente
 - Trabalhos iniciais: tradução de fórmulas aritiméticas em código de máquina.
 - Compiladores eram considerados difíceis de construir.
+
+## Exigências da compilação
+
+- Tem que gerar código correto
+- Ser capaz de tratar softwares de qualquer tamanho
+- Velocidade de compilação(não é obrigatório)
+- Tamanho do compilador não é mais um problema
+
+- User-Friendliness se mede pela qualidade das mensagens de erros;
+- A importância da velocidade e do tamanho do código gerado depende do propósito do compilador - velocidade vem em primeiro lugar.
