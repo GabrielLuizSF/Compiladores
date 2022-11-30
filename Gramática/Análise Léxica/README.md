@@ -60,6 +60,18 @@ num   => digito*(.digito+)?(E(+|-)?digito*)?
 <img src="https://github.com/GabrielLuizSF/Compiladores/blob/main/example/png/Analisador_L%C3%A9xico.drawio.png"></img>
 
 
+----
 
+## Expressões Regulares
+
+### Determinam conjuntos de cadeias válidas:
+
+- Linguagem
+
+### Exemplos:
+
+- Identificador: letra(letra | dígito)*
+- Número inteiro  sem sinal: dígito+
+- Número inteiro com sinal: (+ | -)dígito+
 
 
