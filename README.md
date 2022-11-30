@@ -55,3 +55,7 @@ x = 2
 2- Abstração ao máximo
 
 3- Sobrecarregar o interpretador de funções
+
+## Estrutura dos processos do Compilador
+
+<img src="https://github.com/GabrielLuizSF/Compiladores/blob/main/example/png/Compilador.drawio.png"></img>
