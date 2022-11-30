@@ -69,9 +69,9 @@ x = 2
 x := x + y * 2
 
 ```
-<div align="center">
+
  ⬇️ 
-</div>
+
 
 ```assembly
 
@@ -79,7 +79,7 @@ x := x + y * 2
 
 ```
 
-- Análise Sintática
+- Analisador Sintático
 
 ```assembly
 
@@ -87,9 +87,9 @@ x := x + y * 2
 
 ```
 
-<div align="center">
+
  ⬇️ 
-</div>
+
 
 
 ```assembly
