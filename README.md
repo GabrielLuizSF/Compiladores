@@ -62,7 +62,7 @@ x = 2
 
 -----
 
-- Analisador Léxico
+### Analisador Léxico
 
 ```go
 
@@ -79,7 +79,7 @@ x := x + y * 2
 
 ```
 
-- Analisador Sintático
+### Analisador Sintático
 
 ```assembly
 
@@ -98,7 +98,7 @@ comando_de_atribuição => id := id op id₂ op num
 
 ```
 
-- Analisador Semântico
+### Analisador Semântico
 
 
 ```assembly
@@ -121,7 +121,7 @@ busca_tabela_de_símbolos(id₂)=TRUE
 
 ```
 
-- Gerador de Código Intermediário
+### Gerador de Código Intermediário
 
 
 ```assembly
@@ -140,7 +140,7 @@ id := temp2
 
 ```
 
-- Otimizador de Código
+### Otimizador de Código
 
 
 ```assembly
@@ -160,7 +160,7 @@ id := id +temp1
 
 ```
 
-- Gerador de Código
+### Gerador de Código
 
 
 ```assembly
