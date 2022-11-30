@@ -45,3 +45,11 @@ x = 2
 
 - User-Friendliness se mede pela qualidade das mensagens de erros;
 - A importância da velocidade e do tamanho do código gerado depende do propósito do compilador - velocidade vem em primeiro lugar.
+
+## E as linguagens funcionais?
+
+- Linguagens funcionais (LISP) e lógicas (Prolog) requerem técnicas diferentes.
+
+1- Em geral são interpretadas
+2- Abstração ao máximo
+3- Sobrecarregar o interpretador de funções
