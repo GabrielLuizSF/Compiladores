@@ -126,6 +126,7 @@ public class EdenZeroLexer{
     }
     private void back(){
         position--;
+        column--;
     }
     private boolean isEOF(char c) {
     	return c == '\0';
